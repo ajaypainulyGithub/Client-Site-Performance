@@ -1,3 +1,11 @@
+ ---
+title: Fix Memory Problems
+description: DevTools to find memory issues that affect page performance
+created:  2017 Nov 10
+modified: 
+ 
+ 
+ 
  **DevTools to find memory issues that affect page performance**
 
     Memory issues are important because they are often perceivable by users. Users can perceive memory issues in the following ways:
@@ -28,6 +36,7 @@ The Task Manager is a realtime monitor that tells you how much memory a page is 
 
 Press Shift+Esc or go to the Chrome main menu and select More tools > Task manager to open the Task Manager.
 
+![Alt text](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/task-manager.png "Optional Title")
 
  
  
