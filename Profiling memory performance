@@ -1,12 +1,12 @@
- DevTools to find memory issues that affect page performance:
+ >>>>>>>>>>>>>>>>>>>>>>>>>DevTools to find memory issues that affect page performance<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-Memory issues are important because they are often perceivable by users. Users can perceive memory issues in the following ways:
+    Memory issues are important because they are often perceivable by users. Users can perceive memory issues in the following ways:
 
-.A page's performance gets progressively worse over time:-
+*************************************A page's performance gets progressively worse over time********************************************
 This is possibly a symptom of a memory leak.
 A memory leak is when a bug in the page causes the page to progressively use more and more memory over time.
 
-.A page's performance is consistently bad:-
+*****************************************A page's performance is consistently bad********************************************************
 This is possibly a symptom of memory bloat.
 Memory bloat is when a page uses more memory than is necessary for optimal page speed.
 A page's performance is delayed or appears to pause frequently. This is possibly a symptom of frequent garbage collections. 
@@ -14,7 +14,7 @@ Garbage collection is when the browser reclaims memory.
 The browser decides when this happens. During collections, all script execution is paused. So if the browser is garbage collecting a lot, 
 script execution is going to get paused a lot.
 
-.Page's performance is delayed or appears to pause frequently:-
+**************************************Page's performance is delayed or appears to pause frequently***************************************
  This is possibly a symptom of frequent garbage collections.
  Garbage collection is when the browser reclaims memory. 
  The browser decides when this happens. During collections, all script execution is paused. 
@@ -25,6 +25,8 @@ script execution is going to get paused a lot.
 
 Use the Chrome Task Manager as a starting point to your memory issue investigation. 
 The Task Manager is a realtime monitor that tells you how much memory a page is currently using.
+
+Press Shift+Esc or go to the Chrome main menu and select More tools > Task manager to open the Task Manager.
 
 
  
