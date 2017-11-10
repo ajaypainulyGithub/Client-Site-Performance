@@ -29,14 +29,14 @@ script execution is going to get paused a lot.
  So if the browser is garbage collecting a lot, script execution is going to get paused a lot.
  
 
->>>>>>>>>>>>>>>>Monitor memory use in realtime with the Chrome Task Manager<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Monitor memory use in realtime with the Chrome Task Manager:-
 
 Use the Chrome Task Manager as a starting point to your memory issue investigation. 
 The Task Manager is a realtime monitor that tells you how much memory a page is currently using.
 
 Press Shift+Esc or go to the Chrome main menu and select More tools > Task manager to open the Task Manager.
 
-![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/task-manager.png)
+![alt tag]()
 ![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/js-memory.png)
 
 These two columns tell you different things about how your page is using memory:
@@ -56,8 +56,8 @@ Enable the Memory checkbox.
 Tip: It's a good practice to start and end your recording with a forced garbage collection. 
 Click the collect garbage button (force garbage collection button) while recording to force garbage collection.
 
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/simple-growth.png
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/simple-growth.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/simple-growth.png)
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/simple-growth.png)
  
  an explanation of the user interface. 
  The HEAP graph in the Overview pane (below NET) represents the JS heap.
