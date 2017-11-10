@@ -36,8 +36,10 @@ The Task Manager is a realtime monitor that tells you how much memory a page is 
 
 Press Shift+Esc or go to the Chrome main menu and select More tools > Task manager to open the Task Manager.
 
-![alt tag]()
-![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/js-memory.png)
+![alt tag](Client-Site-Performance/ScreenOne.PNG)
+
+
+![alt tag](Client-Site-Performance/ScreenTwo.PNG)
 
 These two columns tell you different things about how your page is using memory:
 
