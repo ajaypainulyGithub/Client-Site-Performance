@@ -36,10 +36,16 @@ The Task Manager is a realtime monitor that tells you how much memory a page is 
 
 Press Shift+Esc or go to the Chrome main menu and select More tools > Task manager to open the Task Manager.
 
-![alt tag](Client-Site-Performance/ScreenOne.PNG)
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/task-manager.png)
 
 
-![alt tag](Client-Site-Performance/ScreenTwo.PNG)
+
+
+
+
+
+
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/js-memory.png)
 
 These two columns tell you different things about how your page is using memory:
 
@@ -76,17 +82,17 @@ This section teaches you how to use DevTools' heap profilers to identify detache
 To create a snapshot, open DevTools and go to the Profiles panel, select the Take Heap Snapshot radio button, 
 and then press the Take Snapshot button.
 
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/take-heap-snapshot.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/take-heap-snapshot.png)
 Type Detached in the Class filter textbox to search for detached DOM trees.
 
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/detached-filter.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/detached-filter.png)
 
 Type Detached in the Class filter textbox to search for detached DOM trees.
 
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/expanded-detached.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/expanded-detached.png)
 
 Expand the carats to investigate a detached tree:
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/expanded-detached.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/expanded-detached.png)
 
 Nodes highlighted yellow have direct references to them from the JavaScript code.
 Nodes highlighted red do not have direct references. 
@@ -94,4 +100,4 @@ They are only alive because they are part of the yellow node's tree.
 In general, you want to focus on the yellow nodes. Fix your code so that the yellow node isn't alive for longer than it needs to be,
 and you also get rid of the red nodes that are part of the yellow node's tree.
 
-https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/yellow-node.png
+![alt tag](https://developers.google.com/web/tools/chrome-devtools/memory-problems/imgs/yellow-node.png)
